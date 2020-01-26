@@ -1,0 +1,49 @@
+.canvas {
+  width: 512px;
+  height: 512px;
+
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.24), 0 0 4px rgba(0, 0, 0, 0.12);
+}
+
+.size_buttons {
+  display: flex;
+  flex-direction: column;
+  height: 144px;
+  margin-top: 20px;
+
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.24), 0 0 4px rgba(0, 0, 0, 0.12);
+}
+
+.size_buttons-item {
+  display: flex;
+  width: 100%;
+  height: 48px;
+  padding: 0 16px;
+
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Roboto", "Arial", sans-serif;
+  color: rgba(0, 0, 0, 0.541327);
+
+  background-color: rgba(255, 255, 255);
+  border: 0;
+  cursor: pointer;
+}
+
+.size_buttons-item:hover {
+  border: 1px solid rgba(0, 0, 0, 0.24);
+}
+
+.size_buttons-item--active {
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.24);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.24), 0 0 4px rgba(0, 0, 0, 0.12);
+}
+
+.size_buttons-item:focus {
+  outline: 0;
+}
+
+.canvas-hide {
+  display: none;
+}

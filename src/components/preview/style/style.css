@@ -1,0 +1,88 @@
+.preview {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.24), 0 0 4px rgba(0, 0, 0, 0.12);
+}
+
+.preview-full_screen {
+  width: 150px;
+  height: 48px;
+  margin: 0 auto;
+
+  font-family: "Roboto", "Arial", sans-serif;
+  color: rgba(0, 0, 0, 0.541327);
+
+  border: 0;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.24), 0 0 4px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+}
+
+.preview-full_screen:hover {
+  background-color: rgba(255, 255, 0, 0.52);
+}
+
+/* Chrome, Safari and Opera syntax */
+.preview:-webkit-full-screen {
+  width: 80%;
+  height: 80%;
+  margin: 0 auto;
+
+  background: white;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+/* Firefox syntax */
+.preview:-moz-full-screen {
+  width: 80%;
+  height: 80%;
+  margin: 0 auto;
+
+  background: white;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+/* IE/Edge syntax */
+.preview:-ms-fullscreen {
+  width: 80%;
+  height: 80%;
+  margin: 0 auto;
+
+  background: white;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+/* Standard syntax */
+.preview:fullscreen {
+  width: 80%;
+  height: 80%;
+  margin: 0 auto;
+
+  background: white;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.preview-fps_text {
+  line-height: 30px;
+  font-family: "Roboto", "Arial", sans-serif;
+  color: rgba(0, 0, 0, 0.541327);
+}
+
+.preview-fps_range {
+  width: 200px;
+  margin: 0 auto 10px auto;
+
+  cursor: pointer;
+}

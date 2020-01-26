@@ -1,0 +1,14 @@
+#mainNav .navbar-brand:hover  {
+  color: #1abc9c;
+}
+
+.portfolio .portfolio-item {
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  .page-section .page-section-heading {
+    line-height: 4.5rem;
+  }
+}
+

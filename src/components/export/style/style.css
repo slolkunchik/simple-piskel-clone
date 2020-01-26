@@ -1,0 +1,31 @@
+.export {
+  margin: 20px auto;
+}
+
+.export-text {
+  margin: 0;
+  padding-bottom: 10px;
+
+  font-size: 18px;
+  font-family: "Roboto", "Arial", sans-serif;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.export-button--apng,
+.export-button--gif {
+  width: 55px;
+  height: 27px;
+  margin: 10px;
+
+  font-family: "Roboto", "Arial", sans-serif;
+  color: rgba(0, 0, 0, 0.541327);
+
+  border: 0;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.24), 0 0 4px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+}
+
+.export-button--apng:hover,
+.export-button--gif:hover {
+  background-color: rgba(255, 255, 0, 0.52);
+}

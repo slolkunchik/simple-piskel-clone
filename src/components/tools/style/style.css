@@ -1,0 +1,148 @@
+.panel {
+  width: 228px;
+  margin-bottom: 55px;
+
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.24), 0 0 4px rgba(0, 0, 0, 0.12);
+}
+
+.panel-tool {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 48px;
+  padding: 0 16px;
+
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Roboto", "Arial", sans-serif;
+  text-align: justify;
+  color: rgba(0, 0, 0, 0.541327);
+
+  background-color: rgba(255, 255, 255);
+  border: 0;
+  cursor: pointer;
+}
+
+.panel-tool:hover {
+  border: 1px solid rgba(0, 0, 0, 0.24);
+}
+
+.panel-tool--disable {
+  opacity: 0.2;
+
+  backdrop-filter: blur(4px);
+}
+
+.panel-tool--active {
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.24);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.24), 0 0 4px rgba(0, 0, 0, 0.12);
+}
+
+.panel-tool:focus {
+  outline: 0;
+}
+
+.panel-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 33px;
+}
+
+.color_panel {
+  position: relative;
+
+  width: 100px;
+  height: 100px;
+  margin-left: 13%;
+}
+
+.primary-color,
+.secondary-color {
+  position: absolute;
+
+  width: 55px;
+  height: 55px;
+
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.24), 0 0 4px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+}
+
+.primary-color {
+  z-index: 2;
+}
+
+.secondary-color {
+  top: 30px;
+  left: 30px;
+  z-index: 1;
+}
+
+.swap-icon {
+  position: absolute;
+  top: 62px;
+  left: 4px;
+
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.24), 0 0 4px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+}
+
+.primary-color:hover,
+.secondary-color:hover {
+  background-color: rgb(180, 185, 185);
+}
+
+.swap-icon:hover {
+  background-color: rgb(180, 185, 185);
+}
+
+.tool_sizes_box {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  margin-bottom: 10px;
+  margin-left: 13%;
+}
+
+.tool_sizes_box-size {
+  width: 30px;
+  height: 30px;
+
+  border: 2px solid rgba(0, 0, 0, 0.24);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.24), 0 0 4px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+}
+
+.tool_sizes_box-size:hover {
+  border: rgba(0, 0, 0, 0.5);
+}
+
+.tool_sizes_box-size--active {
+  background-color: rgba(255, 255, 0, 0.52);
+}
+
+.tool_sizes_box-size--1 {
+  padding: 10px;
+}
+
+.tool_sizes_box-size--2 {
+  padding: 8px;
+}
+
+.tool_sizes_box-size--3 {
+  padding: 6px;
+}
+
+.tool_sizes_box-size--4 {
+  padding: 4px;
+}
+
+.tool_sizes_box-inner_size {
+  width: 100%;
+  height: 100%;
+
+  background-color: rgb(180, 185, 185);
+}
+
+
